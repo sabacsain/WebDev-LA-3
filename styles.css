@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/* BODY - START */
+
+body{
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* BODY - END */
+
+/* NAVIGATION BAR  -START */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    background-color: #454E6F;
+    overflow: hidden;
+    z-index: 999;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+/* NAVIGATION BAR  - END */
+
+/* FOOTER - START */
+.footer-section{
+  display: block;
+  height: fit-content;
+}
+
+  .footer-text{
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-section h5{
+    text-align: center;
+    height: fit-content;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #60646C;
+  }
+
+  .footer-section .contents{
+    display: inline;
+    width: 600px;
+    padding-right: 30px;
+  }
+
+  .footer-section .about{
+    display: inline;
+    width: 600px;
+  }
+
+  .footer-section h4{
+    width: fit-content;
+  }
+
+  .footer-section p{
+    width: fit-content;
+    text-align: justify;
+  }
+
+  .footer-section a{
+    width: fit-content;
+    color:#0E2038;
+  }
+
+  .footer-section a:hover{
+    color: #EF6787;
+
+  }
+
+/* FOOTER - END */
+
+
+
+
+/* MAIN - START*/
+
+
+/* MAIN - END*/
