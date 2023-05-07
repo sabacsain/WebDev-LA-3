@@ -108,7 +108,29 @@ nav {
   justify-content: center;
 }
 
+/*CHOPIN*/
 
+.chopin-section{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5% 0;
+}
+
+.chopin-description{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: end;
+}
+
+.chopin-image{
+  width: 30%;
+}
+
+.chopin-section img{
+  width: 100%;
+  height: auto;
+}
 
 /* FOOTER - START */
 .footer-section{
@@ -204,5 +226,29 @@ nav {
     width: 75px;
     height: 75px;
   }
+  
+  .chopin-section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+
+  .chopin-description{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .chopin-image{
+    width: 30%;
+    margin: 5% auto;
+  }
+  
+  .chopin-section img{
+    width: 100%;
+    height: auto;
+  }
+  
   
 }
