@@ -20,12 +20,10 @@
 
   <!-- Navigation Bar -->
   <nav>
-    <div class="logo-box">
-      <div class="img-bg" onclick="location.href='index.html';">
-        <img src="#" alt="chopin logo">
-      </div>
+    <div class="img-container">
+      <img src="images/logo.jpg" alt="chopin logo" onclick="location.href='index.html'">
     </div>
-
+    
     <div class="nav-links">
       <ul>
         <li><a href="index.html#chopin-section">WHO IS KATE CHOPIN?</a></li>
@@ -39,22 +37,20 @@
   <!-- MAIN -->
     <div class="main">
       <!-- START   -->
-      <section class="start-section">
-        <div class="start-container">
+      <section class="start-section" id="start-section">
           <image src="images/cover.png"></image>
-          <button class=" start-button">START</button>
-        </div>
-
+          <div class="btn-container">
+            <button class=" start-button" onclick="location.href='index.html#chopin-section'">start</button>
+          </div>
       </section>
 
       <!-- CHOPIN -->
-      <section class="chopin-section">
-        <div class="chopin-container">
-          <div class="chopin-heading">
-            <h1>Who is Kate Chopin?</h1>
-          </div>
+      <section class="chopin-section" id="chopin-section">
 
           <div class="chopin-description">
+
+            <h1>Who is Kate Chopin?</h1>
+            <div class="p-container">
             <p id="chopin-paragraph">
               Kate Chopin was an American novelist and short-story writer best known for her startling 
               1899 novel, The Awakening. Born in St. Louis, she moved to New Orleans after marrying Oscar 
@@ -68,112 +64,89 @@
               Cajun and Creole life are collected in Bayou Folk (1894) and A Night in Acadie (1897), 
               and include "Desiree's Baby," "The Story of an Hour" and "The Storm."
             </p>
+             </div>
           </div>
 
           <div class="chopin-image">
             <image src="images/chopin.png"></image>
           </div>
-        </div>
+
 
       </section>
 
-      <!-- WAVE1 -->
-      <section class="wave1-section">
-        <div class="wave1-container">
-          <image src="images/wave1.png"></image>
-        </div>
+
+     <!-- WAVE1 -->
+      <section class="wave-section">
+        <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 440" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(109, 109, 109, 1)" offset="0%"></stop><stop stop-color="rgba(109, 109, 109, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,88L30,124.7C60,161,120,235,180,220C240,205,300,103,360,117.3C420,132,480,264,540,315.3C600,367,660,337,720,315.3C780,293,840,279,900,234.7C960,191,1020,117,1080,117.3C1140,117,1200,191,1260,234.7C1320,279,1380,293,1440,256.7C1500,220,1560,132,1620,124.7C1680,117,1740,191,1800,205.3C1860,220,1920,176,1980,183.3C2040,191,2100,249,2160,286C2220,323,2280,337,2340,315.3C2400,293,2460,235,2520,242C2580,249,2640,323,2700,308C2760,293,2820,191,2880,124.7C2940,59,3000,29,3060,22C3120,15,3180,29,3240,44C3300,59,3360,73,3420,124.7C3480,176,3540,264,3600,315.3C3660,367,3720,381,3780,322.7C3840,264,3900,132,3960,132C4020,132,4080,264,4140,278.7C4200,293,4260,191,4290,139.3L4320,88L4320,440L4290,440C4260,440,4200,440,4140,440C4080,440,4020,440,3960,440C3900,440,3840,440,3780,440C3720,440,3660,440,3600,440C3540,440,3480,440,3420,440C3360,440,3300,440,3240,440C3180,440,3120,440,3060,440C3000,440,2940,440,2880,440C2820,440,2760,440,2700,440C2640,440,2580,440,2520,440C2460,440,2400,440,2340,440C2280,440,2220,440,2160,440C2100,440,2040,440,1980,440C1920,440,1860,440,1800,440C1740,440,1680,440,1620,440C1560,440,1500,440,1440,440C1380,440,1320,440,1260,440C1200,440,1140,440,1080,440C1020,440,960,440,900,440C840,440,780,440,720,440C660,440,600,440,540,440C480,440,420,440,360,440C300,440,240,440,180,440C120,440,60,440,30,440L0,440Z"></path></svg>
       </section>
 
       <!-- NOTABLE -->
-      <section class="notable-section">
-        <div class="notable-container">
+      <section class="notable-section" id="notable-section">
+
           <div class="notable-heading">
             <h1>NOTABLE PIECES OF KATE CHOPIN</h1>
           </div>
 
-          <div class="picture-row">
-            <div class="notable-picture">
-              <image src="images/desiree.png"></image>
-            </div>
 
-            <div class="notable-picture">
-              <image src="images/night.png"></image>
-            </div>
+          <div class="notable-container">
 
-            <div class="notable-picture">
-              <image src="images/bayou.png"></image>
-            </div>
+            <div class="notable-frame">
+            
+              <div class="notable-group">
+                <img src="images/desiree.png" alt="desiree's baby">
+                <h2>DESIREE"S BABY</h2>
+                <p>
+                  "Désirée's Baby" is an 1893 short story by the American writer Kate Chopin. It is about miscegenation in Creole Louisiana 
+                  during the antebellum period.
+                </p>
+              </div>
 
-            <div class="notable-picture">
-              <image src="images/story.png"></image>
-            </div>
+              <div class="notable-group">
+                <img src="images/night.png" alt="desiree's baby">
+                <h2>A NIGHT IN ACADIE</h2>
+                <p>
+                  The twenty-one short stories in A Night in Acadie, like those of Bayou Folk, take place in the uniquely blended, 
+                  multicultural Louisiana. Yet unlike Chopin's first collection of short stories, A Night in Acadie reveals a bolder, 
+                  less traditional treatment of bayou life.
+                </p>
+              </div>
 
           </div>
 
-          <div class="heading-row">
-            <div class="picture-heading">
-              <h2>DESIREE"S BABY</h2>
-            </div>
+            <div class="notable-frame">
 
-            <div class="picture-heading">
-              <h2>A NIGHT IN ACADIE</h2>
-            </div>
+              <div class="notable-group">
+                <img src="images/bayou.png" alt="desiree's baby">
+                <h2>BAYOU FOLK</h2>
+                <p>
+                  "Bayou Folk" by Kate Chopin is a collection of stories written about those who called the Bayou of Louisiana home. 
+                  The book is full of the spirit and customs of the Creoles and Acadians. Though these populations have long disappeared, 
+                  having their stories committed to text ensures that they won't be forgotten.
+                </p>
+              </div>
 
-            <div class="picture-heading">
-              <h2>BAYOU FOLK</h2>
-            </div>
+              <div class="notable-group">
+                <img src="images/story.png" alt="desiree's baby">
+                <h2>THE STORY OF AN HOUR</h2>
+                <p>
+                  The Story of an Hour" by Kate Chopin is about Louise Mallard, a woman in a Victorian marriage , who receives the news 
+                  that her husband was killed in an accident.
+                </p>
+              </div>
 
-            <div class="picture-heading">
-              <h2>THE STORY OF AN HOUR</h2>
             </div>
-          </div>
-
-          <div class="notable-paragraphs">
-            <div class="note-p">
-              <p>
-                "Désirée's Baby" is an 1893 short story by the American writer Kate Chopin. It is about miscegenation in Creole Louisiana 
-                during the antebellum period.
-              </p>
-            </div>
-
-            <div class="note-p">
-              <p>
-                The twenty-one short stories in A Night in Acadie, like those of Bayou Folk, take place in the uniquely blended, 
-                multicultural Louisiana. Yet unlike Chopin's first collection of short stories, A Night in Acadie reveals a bolder, 
-                less traditional treatment of bayou life.
-              </p>
-            </div>
-
-            <div class="note-p">
-              <p>
-                "Bayou Folk" by Kate Chopin is a collection of stories written about those who called the Bayou of Louisiana home. 
-                The book is full of the spirit and customs of the Creoles and Acadians. Though these populations have long disappeared, 
-                having their stories committed to text ensures that they won't be forgotten.
-              </p>
-            </div>
-
-            <div class="note-p">
-              <p>
-                The Story of an Hour" by Kate Chopin is about Louise Mallard, a woman in a Victorian marriage , who receives the news 
-                that her husband was killed in an accident.
-              </p>
-            </div>
-          </div>
-
         </div>
       </section>
 
       <!-- WAVE2 -->
-      <section class="wave2-section">
-        <div class="wave2-container">
-          <image src="images/wave2.png"></image>
-        </div>
+      <section class="wave-section">
+        <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 440" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(109, 109, 109, 1)" offset="0%"></stop><stop stop-color="rgba(109, 109, 109, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,88L48,124.7C96,161,192,235,288,220C384,205,480,103,576,117.3C672,132,768,264,864,315.3C960,367,1056,337,1152,315.3C1248,293,1344,279,1440,234.7C1536,191,1632,117,1728,117.3C1824,117,1920,191,2016,234.7C2112,279,2208,293,2304,256.7C2400,220,2496,132,2592,124.7C2688,117,2784,191,2880,205.3C2976,220,3072,176,3168,183.3C3264,191,3360,249,3456,286C3552,323,3648,337,3744,315.3C3840,293,3936,235,4032,242C4128,249,4224,323,4320,308C4416,293,4512,191,4608,124.7C4704,59,4800,29,4896,22C4992,15,5088,29,5184,44C5280,59,5376,73,5472,124.7C5568,176,5664,264,5760,315.3C5856,367,5952,381,6048,322.7C6144,264,6240,132,6336,132C6432,132,6528,264,6624,278.7C6720,293,6816,191,6864,139.3L6912,88L6912,440L6864,440C6816,440,6720,440,6624,440C6528,440,6432,440,6336,440C6240,440,6144,440,6048,440C5952,440,5856,440,5760,440C5664,440,5568,440,5472,440C5376,440,5280,440,5184,440C5088,440,4992,440,4896,440C4800,440,4704,440,4608,440C4512,440,4416,440,4320,440C4224,440,4128,440,4032,440C3936,440,3840,440,3744,440C3648,440,3552,440,3456,440C3360,440,3264,440,3168,440C3072,440,2976,440,2880,440C2784,440,2688,440,2592,440C2496,440,2400,440,2304,440C2208,440,2112,440,2016,440C1920,440,1824,440,1728,440C1632,440,1536,440,1440,440C1344,440,1248,440,1152,440C1056,440,960,440,864,440C768,440,672,440,576,440C480,440,384,440,288,440C192,440,96,440,48,440L0,440Z"></path></svg>
       </section>
 
-
       <!-- EXCERPT -->
-      <section class="excerpt-section">
-        <div class="excerpt-container">
+      <section class="excerpt-section" id="excerpt-section">
+
+
           <div class="excerpt-heading">
             <h1>EXCERPT FROM THE AWAKENING</h1>
           </div>
@@ -198,7 +171,7 @@
             </p>
 
           </div>
-        </div>
+
       </section>
 
       <!-- FOOTER -->
