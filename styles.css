@@ -17,7 +17,7 @@ nav {
     left: 0;
     width: 100%;
     color: #fff;
-    background-color: #454E6F;
+    background-color: #fff;
     overflow: hidden;
     z-index: 999;
     height: auto;
@@ -33,6 +33,7 @@ nav {
     text-align: center;
     display: flex;
     justify-content: space-evenly;
+    
   }
   
   nav li {
@@ -40,16 +41,20 @@ nav {
   }
   
   nav a {
+    font-family: 'Poppins';
+    font-weight: bold;
+    background-color: #6D6D6D;
     color: white;
     text-align: center;
     text-decoration: none;
     height: fit-content;
-    padding: 2px 3px;
+    padding: 10px 30px;
     font-size: clamp(0.625rem, 0.2344rem + 1.25vw, 0.9375rem);
+    border-radius: 8px;
   }
   
   nav a:hover {
-    background-color: #ddd;
+    background-color: #E8E8E8;
     color: black;
     height: fit-content;
   }
@@ -59,6 +64,7 @@ nav {
     height: 100px;
     border-radius: 50%;
     cursor: pointer;
+    margin-left: 30%;
   }
 
   nav img:hover{
@@ -84,7 +90,8 @@ nav {
   flex-direction: column;
   margin-top: -15px;
   position: relative;
-  margin-bottom: 25%;
+  margin-bottom: 20%;
+
 }
 
 .start-section img{
@@ -92,6 +99,7 @@ nav {
   height: auto;
   z-index: -2;
   position: absolute;
+  background-color: #E8E8E8;
 }
 
 .start-button{
@@ -100,12 +108,20 @@ nav {
   width: fit-content;
   padding: 0.5% 1%;
   font-size: clamp(0.625rem, 0.2344rem + 1.25vw, 0.9375rem);
+  background-color: #947F57;
+  color: #FFF;
+  border-radius: 75px 75px;
+  width: 8%;
+  font-size: 2ch;
+  font-weight: bolder;
+  
 }
 
 .btn-container{
   width: 100%;
   display: flex;
   justify-content: center;
+  
 }
 
 /*CHOPIN*/
@@ -114,6 +130,7 @@ nav {
   display: flex;
   justify-content: space-evenly;
   padding: 5% 0;
+  background-color: #E8E8E8;
 }
 
 .chopin-description{
@@ -130,6 +147,34 @@ nav {
 .chopin-section img{
   width: 100%;
   height: auto;
+  border-radius: 999em 999em 40px 40px;
+}
+.chopin-section h1{
+  font-family: 'Poppins';
+  font-weight: bold;
+  padding-top: 9px;
+  text-align: center;
+  color: #fff; 
+  border-radius: 75px 75px;
+  background: #7C9D96;
+  width: 380px;
+  height: 50px;
+  border-style: solid;
+  border-color: black;
+  box-shadow: 0 8px 8px -4px gray;
+}
+.chopin-section p{
+  font-family: 'Poppins';
+  text-align: justify;
+  font-size: 2ch;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.chopin-section .p-container{
+  margin-top: 2%;
+  width: 1077px;
+  height: 400px;
+  background-color: rgba(124,157,150, 0.3);
 }
 
 /* FOOTER - START */
