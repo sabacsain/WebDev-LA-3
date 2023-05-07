@@ -33,7 +33,7 @@ nav {
     text-align: center;
     display: flex;
     justify-content: space-evenly;
-    
+    margin-right: 10%;
   }
   
   nav li {
@@ -194,11 +194,15 @@ nav {
   display: flex;
   flex-direction: column;
   width: 100%;
+  background-color: #3E3E3E;
+  color: #fff;
+  padding: 5% 0;
 }
 
 .notable-heading{
   width: fit-content;
   margin-left: 6%;
+  margin-bottom: 3%;
 }
 
 .notable-section p{
@@ -210,6 +214,14 @@ nav {
 .notable-section h2{
   text-align: center;
   font-size: clamp(0.625rem, -0.1563rem + 2.5vw, 1.25rem);
+  font-family: 'Poppins';
+  font-weight: bold;
+  padding-top: 15px;
+  color: #fff; 
+  border-radius: 75px 75px;
+  background: #7C9D96;
+  width: 400px;
+  height: 50px;
 }
 
 .notable-group{
@@ -228,6 +240,7 @@ nav {
   border: solid;
   border-width: 10px;
   border-radius: 10px;
+  border-color: #7C9D96;
 }
 
 .notable-container{
@@ -239,72 +252,81 @@ nav {
 
 .notable-section h1{
   font-size: clamp(0.9375rem, -0.2344rem + 3.75vw, 1.875rem);
-}
-
-/*EXCERPT*/
-
-.excerpt-section{
-  padding: 5%;
-}
-
-
-.excerpt-description{
-  padding: 3%;
-  background: #EF6787;
-  text-align: justify;
-}
-
-.excerpt-section h1{
-  font-size: clamp(1.0625rem, 0.4375rem + 2vw, 1.5625rem);
-  background: wheat;
-  width: fit-content;
+  font-family: 'Poppins';
+  font-weight: bold;
+  padding-top: 9px;
+  text-align: center;
+  color: #fff; 
+  border-radius: 75px 75px;
+  background: #7C9D96;
+  width: 620px;
+  height: 50px;
+  border-style: solid;
+  border-color: white;
 }
 
 
-.excerpt-description p{
-  font-size: clamp(0.625rem, 0.2344rem + 1.25vw, 0.9375rem);
-}
 
 /* FOOTER - START */
+.footer-section{
+  display: block;
+  height: fit-content;
+}
 
+  .footer-text{
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-section h5{
+    text-align: center;
+    height: fit-content;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #60646C;
+  }
+
+  .footer-section .contents{
+    display: inline;
+    width: 600px;
+    padding-right: 30px;
+  }
+
+  .footer-section .about{
+    display: inline;
+    width: 600px;
+  }
+
+  .footer-section h4{
+    width: fit-content;
+  }
+
+  .footer-section p{
+    width: fit-content;
+    text-align: justify;
+  }
+
+  .footer-section a{
+    width: fit-content;
+    color:#0E2038;
+  }
+
+  .footer-section a:hover{
+    color: #EF6787;
+
+  }
 
 /* FOOTER - END */
 
-.footer-section{
-  display: flex;
-  flex-direction: column;
-  height: fit-content;
-  padding: 0 10%;
-}
-
-.footer-text{
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-}
-
-.footer-section .contents{
-  display: inline-block;
-  width: 45%;
-}
-
-.footer-section .about{
-  width: 45%;
-}
-
-.footer-section h5{
-  text-align: center;
-}
-
-.footer-section h4{
-  font-size: clamp(0.9375rem, 0.1563rem + 2.5vw, 1.5625rem);
-}
-
-.footer-section a, p, h5{
-  font-size: clamp(0.625rem, 0.2344rem + 1.25vw, 0.9375rem);
-}
 
 
+
+/* MAIN - START*/
+
+
+/* MAIN - END*/
 
 
 @media screen and (max-width:964px) {
@@ -419,15 +441,6 @@ nav {
 
   .notable-group{
     margin: auto;
-  } 
-
-  .excerpt-heading{
-    width: inherit;
-  }
-
-  .excerpt-heading h1{
-    margin-left: auto;
-    margin-right: auto;
   }
 
 }
