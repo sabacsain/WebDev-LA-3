@@ -33,30 +33,34 @@ nav {
     text-align: center;
     display: flex;
     justify-content: space-evenly;
-    margin-right: 10%;
   }
   
   nav li {
     display: flex;
+    width: 25%;
+    background-color: #6D6D6D;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 0 2%;
+    height: inherit;
   }
   
   nav a {
     font-family: 'Poppins';
     font-weight: bold;
-    background-color: #6D6D6D;
     color: white;
-    text-align: center;
     text-decoration: none;
-    height: fit-content;
-    padding: 10px 30px;
-    font-size: clamp(0.625rem, 0.2344rem + 1.25vw, 0.9375rem);
-    border-radius: 8px;
+    font-size: clamp(0.4375rem, -0.1875rem + 2vw, 0.9375rem);
+    margin: auto;
   }
   
-  nav a:hover {
-    background-color: #E8E8E8;
-    color: black;
-    height: fit-content;
+  nav li:hover a{
+    color: #3E3E3E;
+    font-style: italic;
+  }
+
+  nav li:hover{
+    background: white;
   }
 
   nav img{
@@ -111,8 +115,7 @@ nav {
   background-color: #947F57;
   color: #FFF;
   border-radius: 75px 75px;
-  width: 8%;
-  font-size: 2ch;
+  padding: 0.5% 2%;
   font-weight: bolder;
   
 }
@@ -148,52 +151,52 @@ button.start-button:hover{
 
 .chopin-image{
   width: 30%;
+  display: flex;
+  justify-content: center;
 }
 
 .chopin-section img{
   width: 100%;
   height: auto;
   border-radius: 999em 999em 40px 40px;
+  object-fit: cover;
 }
+
 .chopin-section h1{
   font-family: 'Poppins';
   font-weight: bold;
-  padding-top: 9px;
   text-align: center;
   color: #fff; 
   border-radius: 75px 75px;
   background: #7C9D96;
-  width: 380px;
-  height: 50px;
   border-style: solid;
   border-color: black;
   box-shadow: 0 8px 8px -4px gray;
+  width: fit-content;
+  padding: 2% 5%;
+  font-size: clamp(0.9375rem, 0.1563rem + 2.5vw, 1.5625rem);
 }
 .chopin-section p{
   font-family: 'Poppins';
   text-align: justify;
-  font-size: 2ch;
-  margin-left: 10%;
-  margin-right: 10%;
+  font-size: clamp(0.625rem, 0.2344rem + 1.25vw, 0.9375rem);
   color: black;
+  padding: 2% 5%;
 }
+
 .chopin-section .p-container{
-  margin-top: 2%;
-  width: 1077px;
-  height: 400px;
+  margin-top: 5%;
   background-color: rgba(124,157,150, 0.3);
+  border-radius: 10px 10px 0 0;
 }
 
 /*WAVE*/
 
-.wave-section img{
-  width: 100%;
-  height: auto;
-}
-
 .wave-section{
   width: 100%;
-  background: #E8E8E8;
+  margin: 0;
+  background: #e8e8e8;
+  display: flex;
 }
 
 
@@ -203,12 +206,10 @@ button.start-button:hover{
   flex-direction: column;
   width: 100%;
   background-color: #3E3E3E;
-  color: #fff;
   padding: 5% 0;
 }
 
 .notable-heading{
-  width: fit-content;
   margin-left: 6%;
   margin-bottom: 3%;
 }
@@ -224,12 +225,10 @@ button.start-button:hover{
   font-size: clamp(0.625rem, -0.1563rem + 2.5vw, 1.25rem);
   font-family: 'Poppins';
   font-weight: bold;
-  padding-top: 15px;
   color: #fff; 
   border-radius: 75px 75px;
   background: #7C9D96;
-  width: 400px;
-  height: 50px;
+  padding: 2% 5%;
   box-shadow: 0 8px 8px -4px black;
 }
 
@@ -260,19 +259,16 @@ button.start-button:hover{
 }
 
 .notable-section h1{
-  font-size: clamp(0.9375rem, -0.2344rem + 3.75vw, 1.875rem);
-  font-family: 'Poppins';
+  font-size: clamp(0.9375rem, 0.5469rem + 1.25vw, 1.25rem);
   font-weight: bold;
-  padding-top: 9px;
-  text-align: center;
   color: #fff; 
   border-radius: 75px 75px;
   background: #7C9D96;
-  width: 620px;
-  height: 50px;
+  padding: 2% 5%;
   border-style: solid;
   border-color: white;
   box-shadow: 0 8px 8px -4px gray;
+  width: fit-content;
 }
 
 
@@ -294,18 +290,17 @@ button.start-button:hover{
 
 .excerpt-section h1{
   font-size: clamp(1.0625rem, 0.4375rem + 2vw, 1.5625rem);
-  width: 500px;
   font-family: 'Poppins';
   font-weight: bold;
-  padding-top: 9px;
   text-align: center;
   color: #fff; 
   border-radius: 75px 75px;
   background: #7C9D96;
-  height: 50px;
   border-style: solid;
   border-color: black;
   box-shadow: 0 8px 10px -4px gray;
+  padding: 2% 5%;
+  width: fit-content;
 }
 
 
@@ -357,6 +352,10 @@ button.start-button:hover{
   color: #FFF;
 }
 
+.footer-section a:hover{
+  color: #3E3E3E;
+}
+
 
 
 
@@ -380,12 +379,12 @@ button.start-button:hover{
     margin-top: 100px;
   }  
 
-  nav a{
-    margin-top: 0;
+  nav li{
+    width: 27%;
   }
 
-  nav li{
-    width: 30%;
+  nav ul{
+    margin-bottom: 2%;
   }
 
   nav img{
@@ -395,7 +394,6 @@ button.start-button:hover{
   
   .chopin-section{
     display: flex;
-    justify-content: space-evenly;
     flex-direction: column;
   }
 
@@ -403,17 +401,19 @@ button.start-button:hover{
     display: flex;
     flex-direction: column;
     width: 80%;
-    margin: auto;
+    margin: 0 auto;
   }
   
   .chopin-image{
     width: 30%;
     margin: 5% auto;
+    margin-top: 0;
   }
   
   .chopin-section img{
     width: 100%;
     height: auto;
+    border-radius: 40px 40px 999em 999em;
   }
   
   .notable-section{
@@ -482,5 +482,20 @@ button.start-button:hover{
     margin-left: auto;
     margin-right: auto;
   }
+  .chopin-section h1{
+    margin: auto;
+  }
 
+}
+
+
+@media screen and (max-width:301px){
+  nav img{
+    width: 45px;
+    height: 45px;
+  }
+
+  nav{
+    height: fit-content;
+  }
 }
