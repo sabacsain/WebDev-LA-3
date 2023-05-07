@@ -116,6 +116,12 @@ nav {
   font-weight: bolder;
   
 }
+button.start-button:hover{
+  cursor: pointer;
+  transform: scale(1.10);
+  background: #7C9D96;
+  color: #fff;
+  }
 
 .btn-container{
   width: 100%;
@@ -169,6 +175,7 @@ nav {
   font-size: 2ch;
   margin-left: 10%;
   margin-right: 10%;
+  color: black;
 }
 .chopin-section .p-container{
   margin-top: 2%;
@@ -186,6 +193,7 @@ nav {
 
 .wave-section{
   width: 100%;
+  background: #E8E8E8;
 }
 
 
@@ -222,6 +230,7 @@ nav {
   background: #7C9D96;
   width: 400px;
   height: 50px;
+  box-shadow: 0 8px 8px -4px black;
 }
 
 .notable-group{
@@ -263,6 +272,7 @@ nav {
   height: 50px;
   border-style: solid;
   border-color: white;
+  box-shadow: 0 8px 8px -4px gray;
 }
 
 
@@ -271,24 +281,38 @@ nav {
 
 .excerpt-section{
   padding: 5%;
+  background: #E8E8E8;
 }
 
 
 .excerpt-description{
   padding: 3%;
-  background: #EF6787;
+  background: rgba(124,157,150, 0.3);
   text-align: justify;
+  margin-top: 5%;
 }
 
 .excerpt-section h1{
   font-size: clamp(1.0625rem, 0.4375rem + 2vw, 1.5625rem);
-  background: wheat;
-  width: fit-content;
+  width: 500px;
+  font-family: 'Poppins';
+  font-weight: bold;
+  padding-top: 9px;
+  text-align: center;
+  color: #fff; 
+  border-radius: 75px 75px;
+  background: #7C9D96;
+  height: 50px;
+  border-style: solid;
+  border-color: black;
+  box-shadow: 0 8px 10px -4px gray;
 }
 
 
 .excerpt-description p{
   font-size: clamp(0.625rem, 0.2344rem + 1.25vw, 0.9375rem);
+  color: black;
+  font-weight: bold;
 }
 
 /* FOOTER - START */
@@ -301,12 +325,14 @@ nav {
   flex-direction: column;
   height: fit-content;
   padding: 0 10%;
+  background: #888888;
 }
 
 .footer-text{
   display: flex;
   width: 100%;
   justify-content: space-between;
+  color: #FFF;
 }
 
 .footer-section .contents{
@@ -328,6 +354,7 @@ nav {
 
 .footer-section a, p, h5{
   font-size: clamp(0.625rem, 0.2344rem + 1.25vw, 0.9375rem);
+  color: #FFF;
 }
 
 
